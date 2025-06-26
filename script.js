@@ -61,7 +61,7 @@ function displayBookmarks(bookmarks) {
   bookmarkList.appendChild(list);
 }
 
-// Handle user change
+// Handles user change
 userSelect.addEventListener("change", () => {
   currentUser = userSelect.value;
   const data = getData(currentUser);

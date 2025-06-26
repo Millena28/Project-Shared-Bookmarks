@@ -1,8 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <script type="module" src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple shared bookmarks website for developers." />
+    <meta name="author" content="Millena Mesfin" />
+    <title>Shared Bookmarks</title>
   </head>
   <body>
+    <h1>Shared Bookmarks</h1>
+
+    <label for="user-select">Select User:</label>
+    <select id="user-select">
+      <option value="" disabled selected>Select User</option>
+    </select>
+
+    <div id="bookmark-list"></div>
+
+    <h2>Add a New Bookmark</h2>
+    <form id="bookmark-form">
+      <label for="url">URL:</label><br />
+      <input type="url" id="url" required /><br />
+
+      <label for="title">Title:</label><br />
+      <input type="text" id="title" required /><br />
+
+      <label for="description">Description:</label><br />
+      <textarea id="description" rows="3"></textarea><br />
+
+      <button type="submit" 
+      style="min-width: 24px; min-height: 24px; padding: 4px;"
+      >
+      Add Bookmark
+    </button>
+      <button id="clear-bookmarks" type="button"
+      style="min-width: 24px; min-height: 24px; padding: 4px;"
+      >
+        Clear Bookmarks
+      </button>
+
+    </form>
+
+    <script type="module" src="./script.js"></script>
   </body>
 </html>

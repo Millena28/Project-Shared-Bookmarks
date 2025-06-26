@@ -97,3 +97,19 @@ form.addEventListener("submit", e => {
 
 // Start
 populateUserDropdown();
+
+// 🧼 Clear bookmarks for current user
+const clearButton = document.getElementById("clear-bookmarks");
+
+clearButton.addEventListener("click", () => {
+  if (!currentUser) {
+    alert("Please select a user first.");
+    return;
+  }
+
+  const confirmClear = confirm("Are you sure you want to clear all bookmarks for this user?");
+  if (!confirmClear) return;
+
+  clearData(currentUser);
+  displayBookmarks([]);
+});

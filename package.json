@@ -1,24 +1,13 @@
 {
-  "name": "project-shared-bookmarks",
-  "version": "1.0.0",
-  "description": "As developers, we spend a lot of time reading articles on the web and we often want to record useful links to come back to them later. It is fun to share your bookmarks with others so that they can find interesting and useful links too.",
-  "main": "script.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Millena28/Project-Shared-Bookmarks.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/Millena28/Project-Shared-Bookmarks/issues"
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
-  "homepage": "https://github.com/Millena28/Project-Shared-Bookmarks#readme",
   "devDependencies": {
-    "jest": "^30.0.3"
+    "@babel/core": "^7.27.7",
+    "@babel/preset-env": "^7.27.2",
+    "babel-jest": "^30.0.2",
+    "jest": "^30.0.3",
+    "jest-environment-jsdom": "^30.0.2"
   }
 }

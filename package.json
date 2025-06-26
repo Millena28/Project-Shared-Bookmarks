@@ -1,0 +1,24 @@
+{
+  "name": "project-shared-bookmarks",
+  "version": "1.0.0",
+  "description": "As developers, we spend a lot of time reading articles on the web and we often want to record useful links to come back to them later. It is fun to share your bookmarks with others so that they can find interesting and useful links too.",
+  "main": "Storage.testes.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Millena28/Project-Shared-Bookmarks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Millena28/Project-Shared-Bookmarks/issues"
+  },
+  "homepage": "https://github.com/Millena28/Project-Shared-Bookmarks#readme",
+  "devDependencies": {
+    "jest": "^30.0.3"
+  }
+}

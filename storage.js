@@ -39,3 +39,11 @@ export function setData(userId, data) {
 export function clearData(userId) {
   localStorage.removeItem(`stored-data-user-${userId}`);
 }
+
+module.exports = {
+  getUserIds,
+  getData,
+  setData,
+  clearData,
+};
+

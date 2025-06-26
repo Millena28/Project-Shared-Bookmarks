@@ -1,4 +1,5 @@
-import { getUserIds, getData, setData, clearData } from './storage.js';
+ const { getUserIds, getData, setData, clearData } = require('../storage.js');
+
 
 beforeEach(() => {
   localStorage.clear();

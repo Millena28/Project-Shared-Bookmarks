@@ -95,10 +95,10 @@ form.addEventListener("submit", e => {
   form.reset();
 });
 
-// Start
+// Starts the populating the book marks
 populateUserDropdown();
 
-// 🧼 Clear bookmarks for current user
+// Clear bookmarks for current user
 const clearButton = document.getElementById("clear-bookmarks");
 
 clearButton.addEventListener("click", () => {

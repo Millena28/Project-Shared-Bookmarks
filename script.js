@@ -25,7 +25,7 @@ function populateUserDropdown() {
   });
 }
 
-// Show bookmarks
+// Showing bookmarks
 function displayBookmarks(bookmarks) {
   bookmarkList.innerHTML = ""; // Clear
 
